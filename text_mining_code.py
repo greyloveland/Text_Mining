@@ -275,7 +275,8 @@ import ipywidgets as widgets
 from IPython.display import display, clear_output
 
 # Normally this is a bad idea to include your api_key directly but I am doing a proof of concept
-api_key = "AIzaSyCxjGu2TtUXDFZW1TjbqZe9qb75FxcNaRM"
+import os
+api_key = os.getenv("MY_API_KEY")
 
 # Set out Gemini API endpoint, specifying which gemini model to use, and passing in out API Key credential
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
