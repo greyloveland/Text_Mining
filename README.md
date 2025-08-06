@@ -6,6 +6,9 @@ This project demonstrates a full text mining workflow using natural language pro
 
 It’s designed to show how text data can be transformed into meaningful groupings and summarized insights using modern NLP tools and machine learning techniques.
 
+Built using the following:
+  Python, pandas, seabord, matplotlib, numpy, sklearn, data cleaning principles, cross-validation, confusion matrix, kmeans clustering, and importing an api. 
+
 ---
 
 ## Features
@@ -20,3 +23,4 @@ It’s designed to show how text data can be transformed into meaningful groupin
   Uses TF-IDF and PageRank to generate concise summaries from clustered documents.
 
 ---
+
