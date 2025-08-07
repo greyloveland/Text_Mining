@@ -4,23 +4,35 @@
 
 This project demonstrates a full text mining workflow using natural language processing (NLP) and unsupervised machine learning. The app allows users to clean, cluster, and summarize raw text documents through a simple, interactive Streamlit interface.
 
-It’s designed to show how text data can be transformed into meaningful groupings and summarized insights using modern NLP tools and machine learning techniques.
+It’s designed to show how text data can be transformed into meaningful groupings and summarized insights using modern NLP tools and machine learning techniques. You can see the app and model results demonstrated in the `images` folder.
 
-Built using the following:
-  Python, pandas, seabord, matplotlib, numpy, sklearn, data cleaning principles, cross-validation, confusion matrix, kmeans clustering, and importing an api. 
+---
+
+### Built With:
+
+- Python
+- pandas
+- seaborn
+- matplotlib
+- numpy
+- scikit-learn (sklearn)
+- data cleaning principles
+- cross-validation
+- confusion matrix
+- KMeans clustering
+- API integration
 
 ---
 
 ## Features
 
--  **Text Preprocessing**  
+- **Text Preprocessing**  
   Cleans text by removing stop words, punctuation, and lemmatizing content.
 
--  **KMeans Clustering**  
+- **KMeans Clustering**  
   Groups similar documents based on vectorized text representations.
 
--  **Extractive Summarization**  
+- **Extractive Summarization**  
   Uses TF-IDF and PageRank to generate concise summaries from clustered documents.
 
 ---
-
